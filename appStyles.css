@@ -1,0 +1,176 @@
+body {
+	background-color:#C3C4C3;
+	font-family:Verdana, Geneva, sans-serif;
+}
+h1{
+	font-size:85%;
+}
+#contentDiv{
+	background-color:#C3C4C3;
+}
+#page6Id{
+	background-color:#C3C4C3;
+}
+#headerIdMain{
+	background-color:#666666;
+	color:#ffffff;
+}
+#headerIdResults{
+	background-color:#666666;
+	color:#ffffff;
+}
+#footerIdMain{
+	background-color:#666666;
+	color:#ffffff;
+}
+
+.wrap {
+    white-space: normal !important;
+}
+
+div{
+	text-align:center;
+	color:#434334;	
+}
+
+span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div ul li a{
+    list-style-type: none;
+    text-align: left;
+    font-size:.75em !important;
+}
+#weightListDiv ul li a{
+    list-style-type: none;
+    text-align: center;
+    font-size:.75em !important;
+}
+#servingsListDiv ul li a{
+    list-style-type: none;
+    text-align: center;
+    font-size:.75em !important;
+}
+
+
+/*----------------------------------------*/
+#weightDiv{
+	background-image:url(blue.png);
+	margin-left:auto;
+	margin-right:auto;
+	background-size:100% 100%; 
+	background-repeat: no-repeat; 
+	width:95%;
+	height:60px;
+	margin-top:10px;
+	display: table;
+}
+#activityDiv{
+	background-image:url(orange.png);
+	margin-left:auto;
+	margin-right:auto;
+	background-size:100% 100%; 
+	background-repeat: no-repeat; 
+	width:95%;
+	height:60px;
+	margin-top:10px;
+	display: table;
+}
+#foodDiv{
+	background-image:url(green2.png);
+	margin-left:auto;
+	margin-right:auto;
+	background-size:100% 100%; 
+	background-repeat: no-repeat; 
+	width:95%;
+	height:60px;
+	margin-top:10px;
+	display: table;
+}
+#numberOfServingsDiv{
+	background-image:url(purple.png);
+	margin-left:auto;
+	margin-right:auto;
+	background-size:100% 100%; 
+	background-repeat: no-repeat; 
+	width:95%;
+	height:60px;
+	margin-top:10px;
+	display: table;
+}
+#calculateDiv{
+	background-image:url(yellow2.png);
+	margin-left:auto;
+	margin-right:auto;
+	background-size:100% 100%; 
+	background-repeat: no-repeat; 
+	width:95%;
+	height:60px;
+	margin-top:10px;
+	display: table;
+}
+
+#snackMinutesDiv{
+	background-image:url(bigBlue.png);
+	margin-left:auto;
+	margin-right:auto;
+	background-size:100% 100%; 
+	background-repeat: no-repeat; 
+	width:95%;
+	height:275px;
+	margin-top:20px;
+	margin-bottom:20px;
+	display: table;
+	font-size:50px;
+	color:#FFFF00;
+}
+
+#tryAnotherSnackDiv{
+	background-image:url(yellow2.png);
+	margin-left:auto;
+	margin-right:auto;
+	background-size:100% 100%; 
+	background-repeat: no-repeat; 
+	width:95%;
+	height:40px;
+	margin-top:10px;
+	margin-bottom:10px; 
+	display: table;
+}
+/*----------------------------------------*/
+
+
+
+
+
+
+#weightListDiv{
+	margin:10px 10px 10px 10px;
+}
+#activityListDiv{
+	margin:10px 10px 10px 10px;
+}
+#foodListDiv{
+	margin:10px 10px 10px 10px;
+}
+#servingsListDiv{
+	margin:10px 10px 10px 10px;
+}
+
+
+#weightList{
+	background-color:gray;
+}
+#activityList{
+	background-color:gray;
+}
+#foodList{
+	background-color:gray;
+}
+#servingsList{
+	background-color:gray;
+}
+
+

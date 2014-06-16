@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SnackMinutes</title>
+	<meta charset="ISO-8859-1">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+	<link rel="stylesheet" href="alertify.core.css" />
+	<link rel="stylesheet" href="alertify.default.css" />
+	<link rel="stylesheet" type="text/css" href="appStyles.css">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+	
+	<script type ="text/javascript" src="newScriptTest.js"></script>
+	<script type ="text/javascript" src="jquery.csv-0.71.js"></script>
+	<script type ="text/javascript" src="alertify.js"></script>
+	
+
+</head>
+
+
+<body>
+	
+	<!-- Start of first page -->
+	<div data-role="page" id="page1Id">
+		<div data-role="header" id="headerIdMain">
+			<h1 style="font-size:85%">Snack Minutes</h1>
+		</div><!-- /header -->
+		
+		<div id="contentDiv" data-role="content">	
+	
+			<!-- <a class="wrap" id="weightLink" href="#page2Id" data-role="button" data-icon="arrow-r" data-iconpos="right" data-transition="slide">Weight</a>
+			
+			<a class="wrap" id="activityLink" href="#page3Id" data-role="button" data-icon="arrow-r" data-iconpos="right" data-transition="slide">Activity</a>
+			
+			<a class="wrap" id="foodLink" href="#page4Id" data-role="button" data-icon="arrow-r" data-iconpos="right" data-transition="slide">Food</a> -->
+			
+			<div id="weightDiv"><p>Weight</p>
+			</div>
+									
+			<div id="activityDiv"><p>Activity</p>
+			</div>
+			
+			<div id="foodDiv"><p>Snack</p>
+			</div>
+			
+			<!-- <div id="servingSizeDiv">Serving Size
+			</div> -->
+			
+			<div id="numberOfServingsDiv"><p>Servings</p>
+			</div>
+			
+			<div id="calculateDiv"><p>Calculate My Snack Minutes</p>
+			</div>
+			
+			<!-- <div id="resultsDiv">Results
+			</div> -->
+			
+			<a id="a1" href="#page1Id"  data-transition="flip" data-direction="reverse"></a>
+			<a id="a2" href="#page2Id"  data-transition="flip" ></a> <!-- go to weightsList -->
+			<a id="a3" href="#page3Id"  data-transition="flip" ></a> <!-- go to activityList -->
+			<a id="a4" href="#page4Id"  data-transition="flip" ></a> <!-- go to foodList -->
+			<a id="a5" href="#page5Id"  data-transition="flip" ></a> <!-- go to foodList -->
+			<a id="a6" href="#page6Id"  data-transition="flip" ></a> <!-- go to snackMinutesResultsPage -->
+		
+		</div><!-- content -->
+
+		<div data-role="footer" id="footerIdMain">
+			<h4 style="font-size:65%">&copy;2014</h4>
+		</div><!-- /footer -->
+	
+	</div><!-- page -->
+
+<!-- ------------------PAGE 2-------------- -->
+	<div data-role="page" id="page2Id">
+		<div id="weightListDiv">
+		</div>
+	</div>
+	
+<!-- ------------------PAGE 3-------------- -->
+	<div data-role="page" id="page3Id">
+		<div id="activityListDiv">
+		</div>
+	</div>
+
+<!-- ------------------PAGE 4-------------- -->
+	<div data-role="page" id="page4Id">
+		<div id="foodListDiv">
+		</div>
+	</div>	
+	
+<!-- ------------------PAGE 5-------------- -->
+	<div data-role="page" id="page5Id">
+		<div id="servingsListDiv">
+		</div>
+	</div>
+
+<!-- ------------------PAGE 6-------------- -->
+	<div data-role="page" id="page6Id">
+		<div data-role="header" id="headerIdResults">
+			<!-- <a href="#" data-rel="back" data-icon="arrow-l"></a> -->
+			<!-- <a id="backButton" href="#" data-role="button" data-icon="arrow-l"></a> -->
+			<h1 style="font-size:75%">Snack Minutes</h1>
+		</div><!-- /header -->
+		
+		<div id="snackMinutesDiv"><p></p>
+		</div>
+		
+		<div id="tryAnotherSnackDiv"><p>Try Another Snack</p>
+		</div>
+		
+		<div data-role="footer" id="footerIdMain">
+			<h4 style="font-size:65%">&copy;2014</h4>
+		</div><!-- /footer -->
+	</div>	
+	
+</body>
+</html>
